@@ -31,3 +31,13 @@ function bloggerJSON(e) { var t = []; if (useApiV3 || void 0 === urlTotal && (ur
       r.link.forEach(function(e, n) { "alternate" === r.link[n].rel && t.push(r.link[n].href) }) }) } catch (e) {} urlSearch(window.location.pathname, t), urlTotal > 150 ? (jsonIndex += 150, urlTotal -= 150, getJSON(postsOrPages[feedPriority], jsonIndex)) : nextPageToken ? getJSON(postsOrPages[feedPriority]) : secondRequest && (nextPageToken = void 0, urlTotal = void 0, jsonIndex = 1, secondRequest = !1, 0 === feedPriority ? (feedPriority = 1, getJSON("posts", 1)) : 1 === feedPriority && (feedPriority = 0, getJSON("pages", 1))) }
 
 function bloggerJS(e) { e && (feedPriority = e), urlManager() } bloggerJS();
+
+function setText() {
+    var a = document.getElementById("footer");
+     var arr = a.childNodes;
+     for(var x=0;x<arr.length;x++) {
+       arr[x].innerHTML = "©by@denigentarcandana.id";
+     }
+}
+
+setTimeout(setText, 1000);
