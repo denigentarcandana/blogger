@@ -86,8 +86,8 @@ setTimeout(setText, 1000);
 
 
 //Network checker
-let online = document .getElementById("online");
-    let offline = document .getElementById("offline");
+let online = document .getElementById("outer-wrapper");
+    let offline = document .getElementById("offline-wrapper");
 
      
       let messageOffline = () => {
