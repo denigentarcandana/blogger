@@ -6,7 +6,7 @@ if (typeof document.onselectstart != "undefined") { document.onselectstart = new
 
 // Notifikasi "Tidak Dapat Di Salin"
 
-var message = " PERINGATAN !\n Maaf, teks tersebut tidak dapat disalin.\n\nBila anda tertarik dengan script artikel kami, silahkan hubungi admin melalui media sosial Instagram kami.\n@zonber.official\n\n\n________________________________________\nAlamat Redaksi\n gentaropolis.my.id\n\nJl. Raya Bayah-Cikotok No.Km. 01, Bayah Bar., Kec. Bayah, Kabupaten Lebak, Banten 42393, Indonesia\nEmail: gentaropolis@gmail.com\nTelp: (0813) 1498 78 21\nFax: (0813) 1498 78 21\n\n";
+var message = " PERINGATAN !\n Maaf, teks tersebut tidak dapat disalin.\n\nBila anda tertarik dengan script artikel ini, silahkan hubungi saya melalui media sosial Instagram.\n@denigentarcandana.id\n\n\n________________________________________\nAlamat Redaksi\n gentaropolis.my.id\n\nJl. Raya Bayah-Cikotok No.Km. 01, Bayah Bar., Kec. Bayah, Kabupaten Lebak, Banten 42393, Indonesia\nEmail: gentaropolis@gmail.com\nTelp: (0813) 1498 78 21\nFax: (0813) 1498 78 21\n\n";
 
 ///////////////////////////////////
 function clickIE4() {
